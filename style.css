@@ -64,6 +64,18 @@ header nav a:hover {
     margin: 0 auto;
 }
 
+#presentation a {
+    color: white; /* Garde l'écriture blanche */
+    text-decoration: none; /* Supprime le soulignement */
+    font-weight: bold; /* Ajoute éventuellement une mise en valeur */
+}
+
+#presentation a:hover {
+    color: #00bcd4; /* Change la couleur au survol, optionnel */
+    text-decoration: underline; /* Ajoute un soulignement au survol, optionnel */
+}
+
+
 /* Section Parcours */
 #parcours {
     min-height: 100vh;
@@ -85,6 +97,31 @@ header nav a:hover {
     font-size: 1.1rem;
     line-height: 1.6;
 }
+
+/* Section Compétences */
+#competences {
+    min-height: 100vh;
+    background: #99ad9a;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 2rem;
+}
+
+#competences h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+#competences p {
+    font-size: 1.1rem;
+    line-height: 1.6;
+    max-width: 800px;
+}
+
+
 
 /* Section Réalisations */
 #realisations {
