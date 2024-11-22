@@ -28,7 +28,7 @@ header nav a:hover {
     color: #00bcd4;
 }
 
-
+/*-------------------------------------------------------------------------------------------------------------------------*/
 /* Section Présentation */
 #presentation {
     position: relative;
@@ -76,93 +76,107 @@ header nav a:hover {
     text-decoration: underline; /* Ajoute un soulignement au survol, optionnel */
 }
 
-
+/*-------------------------------------------------------------------------------------------------------------------------*/
 /* Section Parcours */
 #parcours {
-    position: relative;
-    background: #bedabf;
-    padding: 4rem 2rem;
+    padding: 40px 0;
+    background-color: #b0d1b8; /* Change la couleur du fond de la section */
     text-align: center;
-    overflow: hidden;
-    height: 150vh; /* Hauteur ajustée pour le chemin */
 }
 
 #parcours h2 {
-    font-size: 2.5rem;
-    margin-bottom: 2rem;
-    color: #333; /* Change la couleur du titre */
+    font-size: 2rem;
+    color: #333;
+    margin-bottom: 40px;
 }
 
+/* Le conteneur de la trajectoire */
 .path-container {
     position: relative;
     width: 100%;
-    height: 100%;
+    height: 1200px;
 }
 
+/* Style pour le chemin courbé (SVG) */
 .path-svg {
     position: absolute;
     top: 0;
     left: 0;
-    width: 100%; /* Le SVG occupe toute la largeur de la section */
-    height: 100%; /* Le SVG occupe toute la hauteur de la section */
-    z-index: 1;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
 }
 
+/* Les zones d'expérience */
 .experience {
     position: absolute;
-    z-index: 2;
-    background: white;
-    border: 2px solid #99ad9a;
-    border-radius: 8px;
-    padding: 1.5rem;
+    background-color: #fff;
+    border: 2px solid #709379; /* Change la couleur de la bordure des cases */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
     width: 250px;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-    text-align: center;
-    transform: translate(-50%, -50%); /* Centre chaque case sur son point */
+    transition: transform 0.3s ease;
 }
 
 .experience h3 {
-    margin: 0;
-    font-size: 1.5rem;
-    color: #333; /* Change la couleur du titre dans les cases */
+    margin-top: 0;
+    font-size: 1.2rem;
+    color: #333;
 }
 
 .experience p {
-    margin: 0.5rem 0 0;
-    font-size: 1.1rem;
-    color: #555; /* Change la couleur du texte dans les cases */
+    font-size: 1rem;
+    color: #666;
 }
 
-/* Responsive adjustments */
-@media (max-width: 768px) {
+.experience a {
+    color: #709379; /* Change la couleur des hyperliens */
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.experience a:hover {
+    text-decoration: underline;
+}
+
+/* Effet de survol des expériences */
+.experience:hover {
+    transform: translateY(-10px);
+}
+
+/* Mobile Responsiveness */
+@media screen and (max-width: 768px) {
     .experience {
-        width: 200px;
-        font-size: 0.9rem;
+        width: 80%;
+        padding: 15px;
+    }
+
+    .experience:nth-child(1) {
+        top: 20%;
+        left: 10%;
+    }
+
+    .experience:nth-child(2) {
+        top: 50%;
+        left: 10%;
+    }
+
+    .experience:nth-child(3) {
+        top: 80%;
+        left: 10%;
     }
 }
 
-#parcours a:hover {
-    color: #7c8e7d; /* Change la couleur au survol, optionnel */
-    text-decoration: underline; /* Ajoute un soulignement au survol, optionnel */
-}
-
-#parcours a {
-    color: #555; /* Garde l'écriture blanche */
-    text-decoration: none; /* Supprime le soulignement */
-    font-weight: bold; /* Ajoute éventuellement une mise en valeur */
-}
-
-
+/*-------------------------------------------------------------------------------------------------------------------------*/
 /* Section Compétences */
 #competences {
     min-height: 100vh;
-    background: #99ad9a;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     text-align: center;
-    padding: 2rem;
 }
 
 #competences h2 {
@@ -176,8 +190,40 @@ header nav a:hover {
     max-width: 800px;
 }
 
+/* Section Compétences */
+#competences {
+    padding: 100px 0;
+    background-color: #f4f4f4;
+    position: relative;
+    text-align: center;
+}
 
+.competence-zone {
+    position: absolute;
+    background-color: #ffffff;
+    border: 2px solid #00bcd4;
+    padding: 20px;
+    width: 250px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    z-index: 2;
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Transition pour l'effet */
+}
 
+.competence-zone:hover {
+    transform: scale(1.1); /* Effet de zoom */
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2); /* Ombre supplémentaire */
+}
+
+.competence-zone h3 {
+    color: #333;
+}
+
+.competence-zone p {
+    font-size: 14px;
+    color: #666;
+}
+
+/*-------------------------------------------------------------------------------------------------------------------------*/
 /* Section Réalisations */
 #realisations {
     min-height: 100vh;
