@@ -28,6 +28,7 @@ header nav a:hover {
     color: #00bcd4;
 }
 
+
 /* Section Présentation */
 #presentation {
     position: relative;
@@ -71,32 +72,86 @@ header nav a:hover {
 }
 
 #presentation a:hover {
-    color: #00bcd4; /* Change la couleur au survol, optionnel */
+    color: #7c8e7d; /* Change la couleur au survol, optionnel */
     text-decoration: underline; /* Ajoute un soulignement au survol, optionnel */
 }
 
 
 /* Section Parcours */
 #parcours {
-    min-height: 100vh;
-    background: #ddd;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    position: relative;
+    background: #bedabf;
+    padding: 4rem 2rem;
     text-align: center;
-    padding: 2rem;
+    overflow: hidden;
+    height: 150vh; /* Hauteur ajustée pour le chemin */
 }
 
 #parcours h2 {
-    font-size: 2rem;
-    margin-bottom: 1rem;
+    font-size: 2.5rem;
+    margin-bottom: 2rem;
+    color: #333; /* Change la couleur du titre */
 }
 
-#parcours p {
-    font-size: 1.1rem;
-    line-height: 1.6;
+.path-container {
+    position: relative;
+    width: 100%;
+    height: 100%;
 }
+
+.path-svg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%; /* Le SVG occupe toute la largeur de la section */
+    height: 100%; /* Le SVG occupe toute la hauteur de la section */
+    z-index: 1;
+}
+
+.experience {
+    position: absolute;
+    z-index: 2;
+    background: white;
+    border: 2px solid #99ad9a;
+    border-radius: 8px;
+    padding: 1.5rem;
+    width: 250px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    transform: translate(-50%, -50%); /* Centre chaque case sur son point */
+}
+
+.experience h3 {
+    margin: 0;
+    font-size: 1.5rem;
+    color: #333; /* Change la couleur du titre dans les cases */
+}
+
+.experience p {
+    margin: 0.5rem 0 0;
+    font-size: 1.1rem;
+    color: #555; /* Change la couleur du texte dans les cases */
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .experience {
+        width: 200px;
+        font-size: 0.9rem;
+    }
+}
+
+#parcours a:hover {
+    color: #7c8e7d; /* Change la couleur au survol, optionnel */
+    text-decoration: underline; /* Ajoute un soulignement au survol, optionnel */
+}
+
+#parcours a {
+    color: #555; /* Garde l'écriture blanche */
+    text-decoration: none; /* Supprime le soulignement */
+    font-weight: bold; /* Ajoute éventuellement une mise en valeur */
+}
+
 
 /* Section Compétences */
 #competences {
