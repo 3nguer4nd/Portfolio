@@ -22,16 +22,9 @@ function Home() {
                   </a>
                 </div>
                 <div className="mt-3 sm:mt-0 sm:ml-3">
-                  
-                  </button>
-                  <button 
-                    onClick={() => setCurrentPage('projects')} 
-                    className={`${currentPage === 'projects' ? 'text-primary' : 'text-gray-300'} hover:text-primary-light transition-colors`}
-                  >
-                    <a href="#projets" className="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-primary-light bg-dark-lighter hover:bg-dark-light transition-colors md:py-4 md:text-lg md:px-10">
+                  <a href="projets" className="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-primary-light bg-dark-lighter hover:bg-dark-light transition-colors md:py-4 md:text-lg md:px-10">
                     Voir mes projets
-                    </a>
-                
+                  </a>
                 </div>
               </div>
               <div className="mt-8 flex justify-center lg:justify-start space-x-6">
