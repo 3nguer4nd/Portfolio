@@ -46,7 +46,7 @@ function Contact() {
                 </div>
                 <div className="ml-3 text-gray-400">
                   <p className="text-sm font-medium text-white">Email</p>
-                  <p>contact@exemple.fr</p>
+                  <p>enguerand.iscb@gmail.com</p>
                 </div>
               </div>
               
@@ -66,7 +66,7 @@ function Contact() {
                 </div>
                 <div className="ml-3 text-gray-400">
                   <p className="text-sm font-medium text-white">Localisation</p>
-                  <p>Paris, France</p>
+                  <p>Paris / Tours, France</p>
                 </div>
               </div>
             </div>
@@ -151,7 +151,7 @@ function Contact() {
                   value={formData.message}
                   onChange={handleChange}
                   required
-                  className="mt-1 block w-full rounded-md bg-dark-lighter border-dark-lighter text-gray-300 shadow-sm focus:border-primary focus:ring focus:ring-primary focus:ring-opacity-50"
+                  className="mt-1 block w-full rounded-md bg-dark-lighter border-dark-lighter text-gray-10 shadow-sm focus:border-primary focus:ring focus:ring-primary focus:ring-opacity-50"
                 ></textarea>
               </div>
               
