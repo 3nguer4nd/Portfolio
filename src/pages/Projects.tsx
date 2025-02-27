@@ -8,12 +8,7 @@ function Projects() {
       description: "Application de monitoring réseau permettant de surveiller en temps réel l'état des équipements et des services d'une infrastructure informatique.",
       image: "https://images.unsplash.com/photo-1558494949-ef010cbdcc31?ixlib=rb-4.0.3&auto=format&fit=crop&w=1950&q=80",
       tags: ["Git", "Web", "Bolt"],
-      const githubLink: string = "https://github.com/3nguer4nd/Portfolio";
-
-      const openGitHub = () => {
-          window.open(githubLink, "_blank");
-      };
-
+      githubLink: "https://github.com/3nguer4nd/Portfolio",
     },
     {
       title: "Plateforme de gestion de tickets",
