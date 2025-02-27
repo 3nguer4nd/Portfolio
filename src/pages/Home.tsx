@@ -31,7 +31,7 @@ function Home() {
                 <a href="https://github.com/3nguer4nd" className="text-gray-400 hover:text-primary transition-colors">
                   <Github size={24} />
                 </a>
-                <a href="#https://www.linkedin.com/in/enguérand-ca/" className="text-gray-400 hover:text-primary transition-colors">
+                <a href="https://www.linkedin.com/in/enguérand-ca/" className="text-gray-400 hover:text-primary transition-colors">
                   <Linkedin size={24} />
                 </a>
                 <a href="#" className="text-gray-400 hover:text-primary transition-colors">
