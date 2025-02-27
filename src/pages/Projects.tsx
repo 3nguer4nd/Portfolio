@@ -58,10 +58,10 @@ function Projects() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center">
           <h2 className="text-3xl font-extrabold text-white sm:text-4xl">
-            Mes Projets
+            Mes Réalisations
           </h2>
           <p className="mt-4 max-w-2xl text-xl text-gray-400 mx-auto">
-            Une sélection de projets réalisés dans le cadre de ma formation et de mes expériences professionnelles.
+            Une sélection de projets réalisés dans le cadre de mon alternance.
           </p>
         </div>
 
@@ -92,7 +92,7 @@ function Projects() {
                   </a>
                   <a href={project.demoLink} className="flex items-center text-gray-300 hover:text-primary transition-colors">
                     <ExternalLink size={18} className="mr-1" />
-                    <span>Démo</span>
+                    <span>Voir</span>
                   </a>
                 </div>
               </div>
