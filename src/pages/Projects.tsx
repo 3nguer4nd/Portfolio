@@ -6,7 +6,7 @@ function Projects() {
     {
       title: "Créer et Héberger un portfolio",
       description: "Hébergement d'un Portfolio en ligne grâce à des outils comme Vercel, GitHub ou OVH.",
-      image: "https://images.unsplash.com/photo-1558494949-ef010cbdcc31?ixlib=rb-4.0.3&auto=format&fit=crop&w=1950&q=80",
+      image: "https://images.unsplash.com/photo-1607799279861-4dd421887fb3?ixlib=rb-4.0.3&auto=format&fit=crop&w=1950&q=80",
       tags: ["Git", "Web", "Bolt"],
       githubLink: "https://github.com/3nguer4nd/Portfolio",
       demoLink: "https://enguerand-ca.fr"
@@ -19,10 +19,11 @@ function Projects() {
       githubLink: "https://github.com/3nguer4nd/RMON",
       demoLink: "#"
     },
+    
     {
       title: "Infrastructure as Code",
       description: "Automatisation du déploiement d'une infrastructure complète (serveurs, réseau, sécurité) via des scripts et des outils de provisionnement.",
-      image: "https://images.unsplash.com/photo-1607799279861-4dd421887fb3?ixlib=rb-4.0.3&auto=format&fit=crop&w=1950&q=80",
+      image: "https://images.unsplash.com/photo-1558494949-ef010cbdcc31?ixlib=rb-4.0.3&auto=format&fit=crop&w=1950&q=80",
       tags: ["Ansible", "Terraform", "AWS", "Bash"],
       githubLink: "#",
       demoLink: "#"
