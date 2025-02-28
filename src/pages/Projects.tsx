@@ -5,7 +5,7 @@ function Projects() {
   const projects = [
     {
       title: "Créer et Héberger un portfolio",
-      description: "Hébergement d'un Portfolio en ligne grâce à des outils comme Vercel, GitHub ou OVH.",
+      description: "Développement et mise en ligne s'un portfolio grâce à des outils comme Vercel, GitHub, OVH ou encore VisualStudio Code.",
       image: "https://images.unsplash.com/photo-1607799279861-4dd421887fb3?ixlib=rb-4.0.3&auto=format&fit=crop&w=1950&q=80",
       tags: ["Git", "Web", "Bolt"],
       githubLink: "https://github.com/3nguer4nd/Portfolio",
