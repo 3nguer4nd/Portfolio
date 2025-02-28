@@ -19,7 +19,6 @@ function Projects() {
       githubLink: "https://github.com/3nguer4nd/RMON",
       demoLink: "#"
     },
-    
     {
       title: "Infrastructure as Code",
       description: "Automatisation du déploiement d'une infrastructure complète (serveurs, réseau, sécurité) via des scripts et des outils de provisionnement.",
