@@ -13,7 +13,7 @@ function Home() {
                 <span className="block text-primary">Alternant BTS SIO SISR</span>
               </h1>
               <p className="mt-3 text-base text-gray-400 sm:mt-5 sm:text-lg sm:max-w-xl sm:mx-auto md:mt-5 md:text-xl lg:mx-0">
-                Passionné par les réseaux et la sécurité informatique, je développe des solutions innovantes pour répondre aux défis technologiques d'aujourd'hui.
+                J'effectue actuellement un parcours hybride entre une formation scolaire en informatique et une activité professionnelle dans le milieu de l'audiovisuel.
               </p>
               <div className="mt-5 sm:mt-8 sm:flex sm:justify-center lg:justify-start">
                 <div className="rounded-md shadow">
@@ -22,7 +22,7 @@ function Home() {
                   </a>
                 </div>
                 <div className="mt-3 sm:mt-0 sm:ml-3">
-                  <a href="projets" className="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-primary-light bg-dark-lighter hover:bg-dark-light transition-colors md:py-4 md:text-lg md:px-10">
+                  <a href="#projets" className="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-primary-light bg-dark-lighter hover:bg-dark-light transition-colors md:py-4 md:text-lg md:px-10">
                     Voir mes projets
                   </a>
                 </div>
