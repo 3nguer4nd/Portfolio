@@ -12,11 +12,11 @@ function Projects() {
       demoLink: "https://enguerand-ca.fr"
     },
     {
-      title: "Solution de monitoring d'ensemble",
-      description: "Projet visant à monitorer une prestation.",
+      title: "NetGuard",
+      description: "Solution visant à faciliter le déploiement et la gestion à distance des équipements réseau et audiovisuels avec des services sécurisés et un tableau de bord personnalisé.",
       image: "https://images.unsplash.com/photo-1551288049-bebda4e38f71?ixlib=rb-4.0.3&auto=format&fit=crop&w=1950&q=80",
       tags: ["Proxmox", "#", "#", "#"],
-      githubLink: "#",
+      githubLink: "https://github.com/3nguer4nd/RMON",
       demoLink: "#"
     },
     {
