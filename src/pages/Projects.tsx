@@ -12,10 +12,10 @@ function Projects() {
       demoLink: "https://enguerand-ca.fr"
     },
     {
-      title: "Plateforme de gestion de tickets",
-      description: "Solution de helpdesk pour la gestion des demandes d'assistance informatique, avec suivi des incidents et base de connaissances intégrée.",
+      title: "Solution de monitoring d'ensemble",
+      description: "Projet visant à monitorer une prestation.",
       image: "https://images.unsplash.com/photo-1551288049-bebda4e38f71?ixlib=rb-4.0.3&auto=format&fit=crop&w=1950&q=80",
-      tags: ["PHP", "MySQL", "Bootstrap", "jQuery"],
+      tags: ["Proxmox", "#", "#", "#"],
       githubLink: "#",
       demoLink: "#"
     },
