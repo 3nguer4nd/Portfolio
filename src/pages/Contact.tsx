@@ -151,7 +151,7 @@ function Contact() {
                   value={formData.message}
                   onChange={handleChange}
                   required
-                  className="mt-1 block w-full rounded-md bg-dark-lighter border-dark-lighter text-gray-10 shadow-sm focus:border-primary focus:ring focus:ring-primary focus:ring-opacity-50"
+                  className="mt-1 block w-full rounded-md bg-dark-lighter border-dark-lighter text-gray-300 shadow-sm focus:border-primary focus:ring focus:ring-primary focus:ring-opacity-50"
                 ></textarea>
               </div>
               

@@ -28,10 +28,10 @@ function Home() {
                 </div>
               </div>
               <div className="mt-8 flex justify-center lg:justify-start space-x-6">
-                <a href="https://github.com/3nguer4nd" className="text-gray-400 hover:text-primary transition-colors">
+                <a href="https://github.com/3nguer4nd" className="text-gray-400 hover:text-primary transition-colors" target="_blank">
                   <Github size={24} />
                 </a>
-                <a href="https://www.linkedin.com/in/enguérand-ca/" className="text-gray-400 hover:text-primary transition-colors">
+                <a href="https://www.linkedin.com/in/enguérand-ca/" className="text-gray-400 hover:text-primary transition-colors" target="_blank">
                   <Linkedin size={24} />
                 </a>
                 <a href="#" className="text-gray-400 hover:text-primary transition-colors">
