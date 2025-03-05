@@ -8,7 +8,7 @@ function Projects() {
       description: "Développement et mise en ligne d'un portfolio grâce à des outils comme Vercel, GitHub, OVH ou encore VisualStudio Code.",
       image: "https://images.unsplash.com/photo-1607799279861-4dd421887fb3?ixlib=rb-4.0.3&auto=format&fit=crop&w=1950&q=80",
       tags: ["Git", "Web", "Bolt"],
-      githubLink: "https://github.com/3nguer4nd/Portfolio" target="_blank",
+      githubLink: "https://github.com/3nguer4nd/Portfolio",
       demoLink: "https://enguerand-ca.fr"
     },
     {
@@ -16,7 +16,7 @@ function Projects() {
       description: "Solution visant à faciliter le déploiement et la gestion à distance des équipements réseau et audiovisuels avec des services sécurisés et un tableau de bord personnalisé.",
       image: "https://images.unsplash.com/photo-1551288049-bebda4e38f71?ixlib=rb-4.0.3&auto=format&fit=crop&w=1950&q=80",
       tags: ["Proxmox", "Grafana", "LibreNMS", "PfSense"],
-      githubLink: "https://github.com/3nguer4nd/RMON" target="_blank",
+      githubLink: "https://github.com/3nguer4nd/RMON",
       demoLink: "#"
     },
     {
@@ -86,11 +86,11 @@ function Projects() {
                   ))}
                 </div>
                 <div className="flex justify-between mt-4">
-                  <a href={project.githubLink} className="flex items-center text-gray-300 hover:text-primary transition-colors">
+                  <a href={project.githubLink} className="flex items-center text-gray-300 hover:text-primary transition-colors" target="_blank">
                     <Github size={18} className="mr-1" />
                     <span>Code</span>
                   </a>
-                  <a href={project.demoLink} className="flex items-center text-gray-300 hover:text-primary transition-colors">
+                  <a href={project.demoLink} className="flex items-center text-gray-300 hover:text-primary transition-colors" target="_blank">
                     <ExternalLink size={18} className="mr-1" />
                     <span>Démo</span>
                   </a>
