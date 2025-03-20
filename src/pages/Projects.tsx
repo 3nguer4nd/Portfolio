@@ -66,13 +66,13 @@ function Projects() {
           
           <div className="mt-6 flex items-center justify-center space-x-4">
             <a
-              href="/portfolio\Tab E5.pdf"
+              href="/portfolio\TabE5.pdf"
               target="_blank"
               rel="noopener noreferrer"
               className="inline-flex items-center px-4 py-2 border border-primary rounded-md shadow-sm text-sm font-medium text-white bg-dark-light hover:bg-dark-lighter transition-colors"
             >
               <FileText className="mr-2 h-5 w-5 text-primary" />
-              Voir mon CV complet
+              Tableau E5
             </a>
             <span className="text-gray-400">
               — Consultez mon curriculum vitae détaillé pour en savoir plus sur mon parcours et mes compétences
