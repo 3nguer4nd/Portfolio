@@ -1,5 +1,5 @@
 import React from 'react';
-import { ExternalLink, Github } from 'lucide-react';
+import { ExternalLink, Github, FileText } from 'lucide-react';
 
 function Projects() {
   const projects = [
@@ -16,7 +16,8 @@ function Projects() {
       description: "Solution visant à faciliter le déploiement et la gestion à distance des équipements réseau et audiovisuels avec des services sécurisés et un tableau de bord personnalisé.",
       image: "https://images.unsplash.com/photo-1551288049-bebda4e38f71?ixlib=rb-4.0.3&auto=format&fit=crop&w=1950&q=80",
       tags: ["Proxmox", "Grafana", "LibreNMS", "PfSense"],
-      githubLink: "https://github.com/3nguer4nd/RMON"
+      githubLink: "https://github.com/3nguer4nd/RMON",
+      demoLink: "#"
     },
     {
       title: "Infrastructure as Code",
@@ -62,6 +63,21 @@ function Projects() {
           <p className="mt-4 max-w-2xl text-xl text-gray-400 mx-auto">
             Une sélection de projets réalisés dans le cadre de ma formation et de mes expériences professionnelles.
           </p>
+          
+          <div className="mt-6 flex items-center justify-center space-x-4">
+            <a
+              href="/path/to/your/cv.pdf"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-flex items-center px-4 py-2 border border-primary rounded-md shadow-sm text-sm font-medium text-white bg-dark-light hover:bg-dark-lighter transition-colors"
+            >
+              <FileText className="mr-2 h-5 w-5 text-primary" />
+              Voir mon CV complet
+            </a>
+            <span className="text-gray-400">
+              — Consultez mon curriculum vitae détaillé pour en savoir plus sur mon parcours et mes compétences
+            </span>
+          </div>
         </div>
 
         <div className="mt-12 grid gap-8 md:grid-cols-2 lg:grid-cols-3">
@@ -85,11 +101,11 @@ function Projects() {
                   ))}
                 </div>
                 <div className="flex justify-between mt-4">
-                  <a href={project.githubLink} className="flex items-center text-gray-300 hover:text-primary transition-colors" target="_blank">
+                  <a href={project.githubLink} className="flex items-center text-gray-300 hover:text-primary transition-colors">
                     <Github size={18} className="mr-1" />
                     <span>Code</span>
                   </a>
-                  <a href={project.demoLink} className="flex items-center text-gray-300 hover:text-primary transition-colors" target="_blank">
+                  <a href={project.demoLink} className="flex items-center text-gray-300 hover:text-primary transition-colors">
                     <ExternalLink size={18} className="mr-1" />
                     <span>Démo</span>
                   </a>
