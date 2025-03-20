@@ -75,7 +75,7 @@ function Projects() {
               Tableau E5
             </a>
             <span className="text-gray-400">
-              — Consultez mon curriculum vitae détaillé pour en savoir plus sur mon parcours et mes compétences
+              — Consultez mon Tableau de sunthèse des réalisations professionnelles
             </span>
           </div>
         </div>
