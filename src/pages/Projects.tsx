@@ -75,7 +75,7 @@ function Projects() {
               Tableau E5
             </a>
             <span className="text-gray-400">
-              — Consultez mon Tableau de sunthèse des réalisations professionnelles
+              — Consultez mon Tableau de synthèse des réalisations professionnelles
             </span>
           </div>
         </div>
