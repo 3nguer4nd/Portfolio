@@ -36,18 +36,18 @@ function Projects() {
       demoLink: "#"
     },
     {
-      title: "Portail captif Wi-Fi",
-      description: "Solution de portail captif pour réseaux Wi-Fi publics avec authentification, limitation de bande passante et journalisation des connexions.",
+      title: "''",
+      description: "''",
       image: "https://images.unsplash.com/photo-1487875961445-47a00398c267?ixlib=rb-4.0.3&auto=format&fit=crop&w=1950&q=80",
-      tags: ["pfSense", "PHP", "JavaScript", "Radius"],
+      tags: ["''", "''", "''", "''"],
       githubLink: "#",
       demoLink: "#"
     },
     {
-      title: "Système de sauvegarde distribué",
-      description: "Solution de backup automatisé multi-sites avec chiffrement, déduplication et rotation des sauvegardes.",
+      title: "''",
+      description: "''",
       image: "https://images.unsplash.com/photo-1544197150-b99a580bb7a8?ixlib=rb-4.0.3&auto=format&fit=crop&w=1950&q=80",
-      tags: ["Bash", "rsync", "Cron", "OpenSSL"],
+      tags: ["''", "''", "''", "''"],
       githubLink: "#",
       demoLink: "#"
     }
