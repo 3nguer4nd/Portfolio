@@ -20,18 +20,18 @@ function Projects() {
       demoLink: "#"
     },
     {
-      title: "Infrastructure as Code",
-      description: "Automatisation du déploiement d'une infrastructure complète (serveurs, réseau, sécurité) via des scripts et des outils de provisionnement.",
+      title: "''",
+      description: "''",
       image: "https://images.unsplash.com/photo-1607799279861-4dd421887fb3?ixlib=rb-4.0.3&auto=format&fit=crop&w=1950&q=80",
-      tags: ["Ansible", "Terraform", "AWS", "Bash"],
+      tags: ["''", "''", "''", "''"],
       githubLink: "#",
       demoLink: "#"
     },
     {
-      title: "Audit de sécurité automatisé",
-      description: "Outil d'analyse automatique des vulnérabilités d'un système d'information avec génération de rapports détaillés et recommandations.",
+      title: "''",
+      description: "''",
       image: "https://images.unsplash.com/photo-1563206767-5b18f218e8de?ixlib=rb-4.0.3&auto=format&fit=crop&w=1950&q=80",
-      tags: ["Python", "Nmap", "OpenVAS", "Linux"],
+      tags: ["''", "''", "''", "''"],
       githubLink: "#",
       demoLink: "#"
     },
