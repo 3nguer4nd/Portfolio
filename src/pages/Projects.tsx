@@ -17,7 +17,7 @@ function Projects() {
       image: "https://images.unsplash.com/photo-1551288049-bebda4e38f71?ixlib=rb-4.0.3&auto=format&fit=crop&w=1950&q=80",
       tags: ["Proxmox", "Grafana", "LibreNMS", "PfSense"],
       githubLink: "https://github.com/3nguer4nd/E6/blob/master/Fiche%20E6%20Réalisation%20n°2.pdf",
-      demoLink: "#"
+      
     },
     {
       title: "ADDS",
@@ -25,15 +25,15 @@ function Projects() {
       image: "https://images.pexels.com/photos/17485657/pexels-photo-17485657/free-photo-of-abstrait-technologie-rechercher-numerique.png?auto=compress&cs=tinysrgb&w=800",
       tags: ["AD", "Windows Server", "DHCP", "PowerShell"],
       githubLink: "https://github.com/3nguer4nd/Procedures-IT/blob/master/AD_WindowsServer2019.pdf",
-      demoLink: "#"
+      
     },
     {
-      title: "''",
-      description: "''",
+      title: "GLPI - Gestion de parc informatique",
+      description: "Mise en place complète d’un système de gestion des services informatiques (ITSM) avec GLPI, incluant l’installation d’un socle LAMP, la configuration d’Apache2, PHP-FPM, et la personnalisation de l’environnement selon les bonnes pratiques de sécurité.",
       image: "https://images.unsplash.com/photo-1563206767-5b18f218e8de?ixlib=rb-4.0.3&auto=format&fit=crop&w=1950&q=80",
-      tags: ["''", "''", "''", "''"],
-      githubLink: "#",
-      demoLink: "#"
+      tags: ["LAMP", "Debian12", "Apache2", "MariaDB"],
+      githubLink: "https://github.com/3nguer4nd/Procedures-IT/blob/master/GLPI%20Debian12.pdf",
+      
     },
     {
       title: "''",
