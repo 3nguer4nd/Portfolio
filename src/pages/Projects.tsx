@@ -20,10 +20,10 @@ function Projects() {
       demoLink: "#"
     },
     {
-      title: "''",
-      description: "''",
+      title: "ADDS",
+      description: "Déploiement d’un Active Directory avec gestion centralisée des utilisateurs et ressources réseau",
       image: "https://images.unsplash.com/photo-1607799279861-4dd421887fb3?ixlib=rb-4.0.3&auto=format&fit=crop&w=1950&q=80",
-      tags: ["''", "''", "''", "''"],
+      tags: ["AD", "Windows Server", "DHCP", "PowerShell"],
       githubLink: "#",
       demoLink: "#"
     },

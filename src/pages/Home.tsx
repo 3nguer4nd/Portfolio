@@ -17,7 +17,7 @@ function Home({ setCurrentPage }: HomeProps) {
                 <span className="block text-primary">Alternant BTS SIO SISR</span>
               </h1>
               <p className="mt-3 text-base text-gray-400 sm:mt-5 sm:text-lg sm:max-w-xl sm:mx-auto md:mt-5 md:text-xl lg:mx-0">
-                Passionné par les réseaux et la sécurité informatique, je développe des solutions innovantes pour répondre aux défis technologiques d'aujourd'hui.
+              Actuellement en BTS SIO option SISR en alternance, je mets mes compétences en réseau et infrastructure au service d’une entreprise d'événementiel, où technologie et réactivité vont de pair.
               </p>
               <div className="mt-5 sm:mt-8 sm:flex sm:justify-center lg:justify-start">
                 <div className="rounded-md shadow">
