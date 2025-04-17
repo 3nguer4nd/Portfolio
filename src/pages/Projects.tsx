@@ -44,12 +44,12 @@ function Projects() {
     
     },
     {
-      title: "''",
-      description: "''",
+      title: "WordPress - Déploiement et sauvegardes automatisées",
+      description: "Mise en place complète d’un site WordPress auto-hébergé sous Debian 12 avec un certificat SSL auto-signé, une base de données MariaDB sécurisée, et un système de sauvegarde automatique du site et de la base via scripts bash et SFTP, incluant l’automatisation via cron et la suppression programmée des anciennes sauvegardes.",
       image: "https://images.unsplash.com/photo-1544197150-b99a580bb7a8?ixlib=rb-4.0.3&auto=format&fit=crop&w=1950&q=80",
-      tags: ["''", "''", "''", "''"],
-      githubLink: "#",
-      demoLink: "#"
+      tags: ["Wordpress", "Sauvegarde", "SFTP", "Certificat SSL"],
+      githubLink: "https://github.com/3nguer4nd/Procedures-IT/blob/master/Sauvegardes%20Wordpress%20sur%20Debian12.pdf",
+      
     }
   ];
 
