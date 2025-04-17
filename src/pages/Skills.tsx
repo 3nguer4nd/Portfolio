@@ -7,37 +7,37 @@ function Skills() {
       title: "Administration Réseau",
       description: "Configuration et maintenance de réseaux d'entreprise, mise en place de solutions VPN, gestion de pare-feu.",
       icon: <Server className="h-10 w-10 text-primary" />,
-      technologies: ["Cisco", "Mikrotik", "pfSense", "VLANs", "Routage"]
+      technologies: ["Cisco", "pfSense", "VLANs", "Routage"]
     },
     {
       title: "Cybersécurité",
       description: "Audit de sécurité, mise en place de solutions de protection, gestion des accès et des identités.",
       icon: <Shield className="h-10 w-10 text-primary" />,
-      technologies: ["Kali Linux", "Wireshark", "Nmap", "Metasploit", "Cryptographie"]
+      technologies: ["Kali Linux", "Wireshark", "Nmap", "Cryptographie"]
     },
     {
       title: "Développement",
       description: "Création d'applications web et mobiles, scripts d'automatisation, interfaces utilisateur.",
       icon: <Code className="h-10 w-10 text-primary" />,
-      technologies: ["HTML/CSS", "JavaScript", "React", "Python", "PHP"]
+      technologies: ["HTML/CSS", "JavaScript", "Python", "PHP"]
     },
     {
       title: "Bases de données",
       description: "Conception, optimisation et administration de bases de données relationnelles et NoSQL.",
       icon: <Database className="h-10 w-10 text-primary" />,
-      technologies: ["MySQL", "PostgreSQL", "MongoDB", "SQL Server"]
+      technologies: ["MySQL", "SQL Server"]
     },
     {
       title: "Services Web",
       description: "Déploiement et maintenance de serveurs web, configuration de services cloud.",
       icon: <Globe className="h-10 w-10 text-primary" />,
-      technologies: ["Apache", "Nginx", "AWS", "Azure", "Docker"]
+      technologies: ["Apache", "Nginx", "Docker"]
     },
     {
       title: "Systèmes d'exploitation",
       description: "Administration de systèmes Windows Server et Linux, virtualisation, conteneurisation.",
       icon: <Terminal className="h-10 w-10 text-primary" />,
-      technologies: ["Windows Server", "Linux", "Active Directory", "VMware", "Hyper-V"]
+      technologies: ["Windows Server", "Linux", "Active Directory", "VMware"]
     }
   ];
 
