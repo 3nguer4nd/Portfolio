@@ -49,7 +49,7 @@ function Skills() {
             Mes Compétences
           </h2>
           <p className="mt-4 max-w-2xl text-xl text-gray-400 mx-auto">
-            Spécialisé en infrastructure réseau et sécurité, avec des compétences complémentaires en développement.
+            Spécialisé en infrastructure réseau et sécurité, avec des compétences complémentaires en audiovisuel et en développement.
           </p>
         </div>
 
