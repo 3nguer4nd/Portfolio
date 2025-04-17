@@ -24,7 +24,7 @@ function Projects() {
       description: "Déploiement d’un Active Directory avec gestion centralisée des utilisateurs et ressources réseau",
       image: "https://images.pexels.com/photos/17485657/pexels-photo-17485657/free-photo-of-abstrait-technologie-rechercher-numerique.png?auto=compress&cs=tinysrgb&w=800",
       tags: ["AD", "Windows Server", "DHCP", "PowerShell"],
-      githubLink: "#",
+      githubLink: "https://github.com/3nguer4nd/Procedures-IT/blob/master/AD_WindowsServer2019.pdf",
       demoLink: "#"
     },
     {
