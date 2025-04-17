@@ -23,7 +23,7 @@ function Skills() {
     },
     {
       title: "Bases de données",
-      description: "Conception, optimisation et administration de bases de données relationnelles et NoSQL.",
+      description: "Conception, optimisation et administration de bases de données relationnelles.",
       icon: <Database className="h-10 w-10 text-primary" />,
       technologies: ["MySQL", "SQL Server"]
     },
