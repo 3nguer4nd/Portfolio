@@ -36,12 +36,12 @@ function Projects() {
       
     },
     {
-      title: "''",
-      description: "''",
-      image: "https://images.unsplash.com/photo-1487875961445-47a00398c267?ixlib=rb-4.0.3&auto=format&fit=crop&w=1950&q=80",
-      tags: ["''", "''", "''", "''"],
-      githubLink: "#",
-      demoLink: "#"
+      title: "DHCP & DHCP Relay - Attribution d’adresses IP automatisée",
+      description: "Déploiement complet d’une infrastructure DHCP avec une architecture composée de trois machines (serveur, routeur, client). Le serveur distribue les adresses IP, tandis que le routeur utilise un service DHCP Relay pour relayer les requêtes clients. L’ensemble est virtualisé sur VMware Workstation et connecté via des segments LAN pour simuler un environnement réel.",
+      image: "https://images.pexels.com/photos/574073/pexels-photo-574073.jpeg?auto=compress&cs=tinysrgb&w=800",
+      tags: ["DHCP", "VMware Workstation", "Routage IP", "LAN Segment"],
+      githubLink: "https://github.com/3nguer4nd/Procedures-IT/blob/master/DHCP%20RELAY.pdf",
+    
     },
     {
       title: "''",
