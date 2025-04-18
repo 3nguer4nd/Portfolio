@@ -103,7 +103,7 @@ function Projects() {
                 <div className="flex justify-between mt-4">
                   <a href={project.githubLink} className="flex items-center text-gray-300 hover:text-primary transition-colors">
                     <Github size={18} className="mr-1" />
-                    <span>Code</span>
+                    <span>Ressources</span>
                   </a>
                   <a href={project.demoLink} className="flex items-center text-gray-300 hover:text-primary transition-colors">
                     <ExternalLink size={18} className="mr-1" />
